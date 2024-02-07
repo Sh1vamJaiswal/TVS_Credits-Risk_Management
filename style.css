@@ -1,0 +1,117 @@
+body{
+  background-color: #DFEADA;
+}
+
+
+/* main logo image */
+.main-image{
+    text-align: center;
+}
+
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+.containeer {
+    max-width: 500px;
+    width: 50%;
+    margin-top: 1rem !important;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    
+}
+
+/* Apply styles to headings */
+.heading {
+    text-align: center;
+    color: #007bff;
+    margin: 20px 0px;
+}
+
+/* Apply styles to labels and select elements */
+label, select {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Apply styles to input elements */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+/* Apply styles to the submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Apply styles to form container */
+
+/* css in text area */
+
+input,select{
+    background-color: #DFEADA;
+}
+#Name,#Dependents,#ApplicantIncome,#CoapplicantIncome,#LoanAmount,#Loan_Amount_Term,#Credit_History{
+    width: 96%;
+}
+
+label{
+    font-family: 'Young Serif', serif;
+}
+
+
+.form-group {
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    flex: 1;
+    margin: 5px 0px;
+    margin-right: 10px;
+}
+
+input, select {
+    flex: 3;
+    align-items: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        appearance: none;}
+
+.links{
+    /* text-decoration-line: none; */
+    padding: 0px 3px;
+}
